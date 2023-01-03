@@ -1,0 +1,14 @@
+/* .nav-link .active{
+    color: red;
+} */
+
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: red;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: green;
+    font-weight: bold;
+}
