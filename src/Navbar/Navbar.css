@@ -6,9 +6,11 @@
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     color: red;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .nav-link{
-    color: green;
+    color:green;
     font-weight: bold;
+    cursor: pointer;
 }
