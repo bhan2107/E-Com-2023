@@ -1,6 +1,7 @@
 import Home from '../Screens/Home';
 import About from '../Screens/About';
 import Contact from '../Screens/Contact';
+import PropsDrilling from '../Props-Drilling/Example'
 
 
 
@@ -21,6 +22,7 @@ return(
         <Route path='/home'  element={<Home/>}  />
         <Route path='/about'  element={<About/>}/>
         <Route path='/contact'  element={<Contact/>}/>
+        <Route path='/propsd'  element={<PropsDrilling/>}/>
         <Route  path='*'  element={<Navigate to='/home' />}/>
     </Routes>
    

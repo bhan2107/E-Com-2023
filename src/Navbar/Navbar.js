@@ -43,6 +43,9 @@ return(
         <li class="nav-item">
           <a class={`nav-link ${window.location.href.includes('/contact') ? 'active' : "" }`} aria-current="page" onClick={()=>navigate('/contact')}>Contact</a>
         </li>
+        <li class="nav-item">
+          <a class={`nav-link ${window.location.href.includes('/propsd') ? 'active' : "" }`} aria-current="page" onClick={()=>navigate('/propsd')}>Drilling</a>
+        </li>
        
       </ul>
       <form class="d-flex" role="search">
