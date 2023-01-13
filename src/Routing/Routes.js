@@ -3,6 +3,7 @@ import About from '../Screens/About';
 import Contact from '../Screens/Contact';
 import PropsDrilling from '../Props-Drilling/Example'
 import Form from '../Form-Handling';
+import Rdata from '../Remote-data/RemoteData';
 
 
 
@@ -25,6 +26,7 @@ return(
         <Route path='/contact'  element={<Contact/>}/>
         <Route path='/propsd'  element={<PropsDrilling/>}/>
         <Route path='/form'  element={<Form/>}/>
+        <Route path='/rdata'  element={<Rdata/>}/>
         <Route  path='*'  element={<Navigate to='/home' />}/>
     </Routes>
    
